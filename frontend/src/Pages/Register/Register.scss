@@ -1,0 +1,231 @@
+.register_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: stretch;
+  background-color: #fff;
+  border: 1px solid #444943;
+  width: 55vw;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.register_form {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
+
+.btn_register {
+  background-color: orange;
+  color: #fff !important;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 !important;
+  width: 20vw;
+  box-shadow: 6px 4px 9px 4px #d5d5d5;
+}
+.btn_register:hover {
+  background-color: rgb(135, 59, 24);
+}
+.button_register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.register_box_inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.input_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 40px;
+  opacity: 0.5;
+  border-radius: 8px;
+  border: none;
+  margin-top: 25px;
+}
+.error {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  //font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  // Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button {
+  border: none;
+}
+
+.register_boxes {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+}
+.register__icon-right {
+  float: right;
+  left: -2rem;
+}
+.register__icon-left {
+  float: left;
+}
+
+.upload_image_box {
+  margin-left: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.upload_image {
+  padding-bottom: 15px;
+}
+.btn-new {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  width: 20%;
+  text-transform: uppercase;
+  height: 40px;
+  background-color: #2691d9;
+  color: white;
+  border-radius: 30px;
+  border-color: rgba(110, 105, 105, 0.225);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-new:hover {
+  background: aliceblue;
+  color: #2691d9;
+  transition: 0.5s;
+  border-color: rgba(110, 105, 105, 0.225);
+
+  cursor: pointer;
+}
+.welcome_text {
+  text-align: center;
+
+  color: #2691d9;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #2691d9;
+}
+
+.Singup {
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 10px 0;
+  margin: 20px;
+}
+.register__icon {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+
+  bottom: 27.5px;
+  color: #2691d9;
+}
+.input__field_register {
+  border: none;
+  border-bottom: 1px solid silver;
+  margin-top: 25px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+.input__field_register:active,
+.input__field_register:focus {
+  border: none;
+  border-bottom: 1px solid green;
+  outline: none;
+}
+.input-container_register input:focus-visible {
+  border: none;
+  border-bottom: 1px solid green;
+}
+
+.Singup_link {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #2691d9;
+}
+
+.Singup_link a {
+  color: #2691d9;
+  text-decoration: none;
+}
+
+.singup_link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1470.9px) {
+}
+
+@media (max-width: 1110.9px) {
+  .upload_image_box {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 768.9px) {
+  .register_form {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  .register__icon-right {
+    float: left;
+    left: 0rem;
+  }
+
+  .btn_register {
+    width: 50vw;
+  }
+  .register_box {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .upload_image_box {
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    margin-left: 7.5rem;
+  }
+}
+@media (max-width: 390.9px) {
+  .btn_register {
+    width: 50vw;
+  }
+  .upload_image_box {
+    margin-left: 4rem;
+  }
+
+}
+
+.errorMessage {
+  font-size: 12px;
+
+  color: red;
+  // display: none;
+}

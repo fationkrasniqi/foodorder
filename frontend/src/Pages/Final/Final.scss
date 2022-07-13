@@ -1,0 +1,93 @@
+.final_box {
+  background-color: white;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+
+  padding: 2rem 0;
+}
+
+.final_order_logo {
+  text-align: center;
+}
+.img_success {
+  width: 5rem;
+  height: 5rem;
+}
+.h1_success {
+  color: green;
+}
+.order_details {
+  margin: 0 2rem;
+}
+
+.order_details_text {
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  border-bottom: 2px solid rgb(193, 7, 7);
+  width: 40%;
+  margin: 2rem 0;
+}
+
+.user_order_detail_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dotted rgb(189, 188, 188);
+  padding: 0.5rem 0;
+}
+.user_order_detail_text h3 {
+  font-weight: 500;
+}
+.user_order_detail_text span {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.products {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1470.9px) {
+}
+
+@media (max-width: 1110.9px) {
+  .final_box {
+    width: 90%;
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 540.9px) {
+  .products_mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .products {
+    padding: 1rem 0;
+  }
+  .order_details_text {
+    width: 60%;
+  }
+}
+@media (max-width: 390.9px) {
+}
+.btn_order_page {
+  background-color: #e67e22;
+  color: white!important;
+}
+.btn_order_page:hover {
+  background-color: #a4520a;
+}
+.car_image {
+  width: 4rem;
+  height: 4rem;
+}
+.order_thankyou{
+  padding: 0.5rem 0;
+}

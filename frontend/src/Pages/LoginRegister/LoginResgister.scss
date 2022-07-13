@@ -1,0 +1,36 @@
+.welcome_text{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(65, 65, 65);
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+.p1{
+    margin-top:1%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+.btn-new{
+    text-align: center;
+    margin-top:15px;
+    width: 25%;
+    height:40px;
+    background-color: #444943;
+    color: white;
+    border-radius: 8px;
+    border-color: rgba(110, 105, 105, 0.225);
+  }
+    
+  .btn-new:hover {
+    background: white;
+    border-color: rgba(110, 105, 105, 0.225);
+    color:#444943;
+    cursor: pointer;
+  }
+
+  .firstform{
+    text-align: center;
+    margin-top: 10%;
+  }

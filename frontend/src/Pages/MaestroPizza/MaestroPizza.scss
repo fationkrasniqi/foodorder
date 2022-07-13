@@ -1,0 +1,93 @@
+.about-2{
+    width: 90%;
+    margin: 0px auto;
+    align-content: center;
+}
+.card{
+    padding: 40px 10px;
+    margin: 40px 0;
+img{
+width: 80%;
+height: 26rem;
+width: 43rem;
+}
+.maestro{
+padding-top: 30px;
+    }
+}
+
+.p_maestro{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+
+@media screen and (min-width: 960px){
+    .card{
+        display: flex;
+        padding: 4rem 4rem;
+        padding-left: 7rem;
+        align-items: center;
+        img{
+            width: 100%;
+        }   
+        .photo-card{
+        grid-area: photo;
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        margin: 0 auto;
+         }
+        .text-card{
+        grid-area: text;
+        display: flex;
+        flex-direction: column;
+        .maestro,p{
+        padding: 0;
+        text-align: start;
+             }
+         }
+    }
+    .grow{
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: 1fr 50%;
+        grid-template-areas: "text photo";
+    }
+}
+
+@media (max-width: 959.9px) {
+
+    .card img{
+    height: 16rem;
+    width: 80%;
+    
+    }
+    .p_maestro{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    }
+    .photo-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+}
+
+@media (max-width: 688.9px) {
+    .card img{
+    height: 16rem;
+    width: 100%;
+    }
+    .p_maestro{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    }
+    .photo-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+}
+

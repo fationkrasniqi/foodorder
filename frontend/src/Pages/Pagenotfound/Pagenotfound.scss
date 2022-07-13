@@ -1,0 +1,177 @@
+
+.container_pageNotFound{
+    background: hsl(38, 69%, 59%);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: black;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.notfound{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.data{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column: 1 / 2;
+   
+   
+}
+
+
+.image-alien{
+    width: 100%;
+}
+.wecant{
+
+    padding-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+
+
+.error{
+    color:white;
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    
+    
+}
+
+.heybuddy{
+    font-size: xx-large;
+    margin: 5rem 0;
+    font-size: 3rem;
+    
+}
+
+.buton3{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.02rem;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.alien{
+  margin-top: 170px;
+ width: 29vw;
+}
+
+
+
+
+
+
+.box{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .notfound{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       } 
+       .data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+       }
+
+      .alien{
+          position: relative;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+        
+          align-items: center;
+      }
+      .error{
+          margin-top: 10rem;
+      }
+      .heybuddy{
+          font-size: 4rem;
+          margin: 2rem 0;
+      }
+      .wecant{
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .buton3{
+        width: 11rem;
+    height: 3.5rem;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    
+ 
+   .notfound{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+     
+       
+   }
+   .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+   }
+
+  .alien{
+      position: relative;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    
+      align-items: center;
+  }
+  .error{
+      margin-top: 5rem;
+  }
+  .heybuddy{
+      margin: 3rem 0;
+      font-size: 1.5rem;
+  }
+  .wecant{
+      font-size: 1.5rem;
+      text-align: center;
+  }
+  .image-alien {
+   margin-top: 3rem;
+  }
+  .alien{
+    width: 55vw;
+  }
+
+   .box{
+       font-size: 10px;
+       position: relative;
+       bottom:  10px;
+   }
+}
